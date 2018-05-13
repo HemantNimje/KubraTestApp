@@ -28,6 +28,7 @@ public final class QueryUtils {
     public static final String LOG_TAG = QueryUtils.class.getName();
 
 
+    // Empty constructor
     private QueryUtils() {
 
     }
