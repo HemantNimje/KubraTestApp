@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     // empty textview to ahow the error in case no results are retrieved
     private TextView mEmptyStateTextView;
 
+    // progress bar to show up while the data is being fetched from the server
     private ProgressBar mProgressBar;
 
 
