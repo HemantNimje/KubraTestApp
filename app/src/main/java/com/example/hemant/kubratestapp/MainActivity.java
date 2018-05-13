@@ -24,8 +24,10 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     private static final int USER_LOADER_ID = 0;
 
+    // adapter for user
     private UserAdapter mAdapter;
 
+    // empty textview to ahow the error in case no results are retrieved
     private TextView mEmptyStateTextView;
 
     private ProgressBar mProgressBar;
